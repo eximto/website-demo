@@ -1,9 +1,9 @@
-document.getElementById("contactForm").addEventListener("submit", function(e) {
+document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
-  const message = document.getElementById("formMessage");
-  message.textContent = "Thanks! We’ll get back to you shortly.";
-  message.style.color = "green";
+  const msg = document.getElementById("formMessage");
+  msg.textContent = "Thank you! We’ll get back to you shortly.";
+  msg.style.color = "green";
 
   this.reset();
 });
