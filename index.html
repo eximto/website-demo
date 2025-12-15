@@ -4,177 +4,150 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>EXIMTO | Trade, Payments & Compliance Made Simple</title>
-
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="container">
-      <div class="logo">EXIMTO</div>
-      <nav>
-        <a href="#features">Features</a>
-        <a href="#how-it-works">How It Works</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button class="cta-btn">Request Demo</button>
-    </div>
-  </header>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container">
+    <div class="logo">EXIMTO</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cta-btn">Request Demo</button>
+  </div>
+</header>
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <h1>Global Trade & Payment Visibility, Simplified</h1>
-        <p>
-          EXIMTO helps businesses, platforms, and financial institutions
-          track cross-border trade, reconcile payments, and maintain
-          compliance — all in one unified system.
+<!-- HERO -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <h1>Global Trade & Payment Visibility, Simplified</h1>
+      <p>
+        EXIMTO helps businesses, platforms, and financial institutions
+        track cross-border trade, reconcile payments, and stay compliant —
+        all in one unified system.
+      </p>
+      <div class="hero-actions">
+        <button class="primary-btn">Get Started</button>
+        <button class="secondary-btn">Talk to Sales</button>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <h3>Built for Global Trade</h3>
+      <ul>
+        <li>✔ Trade & payment reconciliation</li>
+        <li>✔ Compliance-ready records</li>
+        <li>✔ E-commerce & traditional trade</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="section">
+  <div class="container">
+    <h2>What EXIMTO Does</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <h3>Trade-Payment Matching</h3>
+        <p>Map shipments, invoices, and orders with actual payments.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Compliance Ready</h3>
+        <p>Structured, verifiable data for audits and reporting.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Multi-Platform Integrations</h3>
+        <p>Marketplaces, logistics, ERPs, and payment providers.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Built to Scale</h3>
+        <p>For exporters, importers, fintechs, and banks.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how-it-works" class="section light">
+  <div class="container">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">1. Connect trade & payment sources</div>
+      <div class="step">2. Import shipment & invoice data</div>
+      <div class="step">3. Auto-reconcile transactions</div>
+      <div class="step">4. Generate reports & insights</div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing" class="section">
+  <div class="container">
+    <h2>Pricing</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Starter</h3>
+        <p class="price">₹3,999 / month</p>
+        <p>For small exporters & importers</p>
+      </div>
+      <div class="price-card featured">
+        <h3>Growth</h3>
+        <p class="price">₹12,999 / month</p>
+        <p>For scaling trade operations</p>
+      </div>
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <p class="price">Custom Pricing</p>
+        <p>For banks & large platforms</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section light">
+  <div class="container">
+    <h2>Contact EXIMTO</h2>
+
+    <div class="contact-page-grid">
+      <div class="contact-details">
+        <h3>Get in Touch</h3>
+        <p><strong>Email</strong><br>
+          <a href="mailto:contact.eximto@gmail.com">contact.eximto@gmail.com</a>
         </p>
-        <div class="hero-actions">
-          <button class="primary-btn">Get Started</button>
-          <button class="secondary-btn">Talk to Sales</button>
-        </div>
+        <p><strong>Phone</strong><br>
+          <a href="tel:+919632174347">+91 96321 74347</a>
+        </p>
+        <p>We respond within one business day.</p>
       </div>
-      <div class="hero-card">
-        <h3>Built for Global Trade</h3>
-        <ul>
-          <li>✔ Trade & payment reconciliation</li>
-          <li>✔ Compliance-ready data</li>
-          <li>✔ E-commerce & traditional trade</li>
-        </ul>
-      </div>
+
+      <form id="contactForm" class="contact-form">
+        <h3>Send Us a Message</h3>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Work Email" required>
+        <input type="text" placeholder="Company Name">
+        <textarea placeholder="How can EXIMTO help you?"></textarea>
+        <button type="submit" class="primary-btn">Submit</button>
+        <p id="formMessage"></p>
+      </form>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- FEATURES -->
-  <section id="features" class="section">
-    <div class="container">
-      <h2>What EXIMTO Does</h2>
-      <div class="features-grid">
-        <div class="feature-card">
-          <h3>Trade-Payment Matching</h3>
-          <p>
-            Automatically map shipments, invoices, and orders
-            with actual cross-border payments received or sent.
-          </p>
-        </div>
-        <div class="feature-card">
-          <h3>Compliance & Audit Readiness</h3>
-          <p>
-            Maintain structured, verifiable data
-            for banks, auditors, and regulators.
-          </p>
-        </div>
-        <div class="feature-card">
-          <h3>Multi-Platform Integrations</h3>
-          <p>
-            Connect marketplaces, logistics partners,
-            ERP systems, and payment providers.
-          </p>
-        </div>
-        <div class="feature-card">
-          <h3>Built to Scale</h3>
-          <p>
-            Designed for exporters, importers,
-            fintechs, banks, and marketplaces.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 EXIMTO. All rights reserved.</p>
+  </div>
+</footer>
 
-  <!-- HOW IT WORKS -->
-  <section id="how-it-works" class="section light">
-    <div class="container">
-      <h2>How It Works</h2>
-      <div class="steps">
-        <div class="step">1. Connect trade & payment sources</div>
-        <div class="step">2. Import shipment & invoice data</div>
-        <div class="step">3. Auto-reconcile transactions</div>
-        <div class="step">4. Generate reports & insights</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PRICING -->
-  <section id="pricing" class="section">
-    <div class="container">
-      <h2>Pricing</h2>
-      <div class="pricing-grid">
-        <div class="price-card">
-          <h3>Starter</h3>
-          <p class="price">₹3,999 / month</p>
-          <p>For small exporters & importers</p>
-        </div>
-        <div class="price-card featured">
-          <h3>Growth</h3>
-          <p class="price">₹12,999 / month</p>
-          <p>For scaling global trade operations</p>
-        </div>
-        <div class="price-card">
-          <h3>Enterprise</h3>
-          <p class="price">Custom Pricing</p>
-          <p>For banks, fintechs & large platforms</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT (MERGED) -->
-  <section id="contact" class="section light">
-    <div class="container">
-      <h2>Contact EXIMTO</h2>
-
-      <div class="contact-page-grid">
-
-        <!-- CONTACT DETAILS -->
-        <div class="contact-details">
-          <h3>Get in Touch</h3>
-
-          <p>
-            <strong>Email</strong><br/>
-            <a href="mailto:contact.eximto@gmail.com">
-              contact.eximto@gmail.com
-            </a>
-          </p>
-
-          <p>
-            <strong>Phone</strong><br/>
-            <a href="tel:+919632174347">
-              +91 96321 74347
-            </a>
-          </p>
-
-          <p>
-            We typically respond within one business day.
-          </p>
-        </div>
-
-        <!-- CONTACT FORM -->
-        <form id="contactForm" class="contact-form">
-          <h3>Send Us a Message</h3>
-          <input type="text" placeholder="Your Name" required />
-          <input type="email" placeholder="Work Email" required />
-          <input type="text" placeholder="Company Name" />
-          <textarea placeholder="How can EXIMTO help you?"></textarea>
-          <button type="submit" class="primary-btn">Submit</button>
-          <p id="formMessage"></p>
-        </form>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 EXIMTO. All rights reserved.</p>
-    </div>
-  </footer>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
